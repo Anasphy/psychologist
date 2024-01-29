@@ -2,7 +2,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import profileImage from '../pages/profile.png'; 
 
 
 const containerStyle = {
@@ -120,9 +119,7 @@ const Offer = () => {
     <button className=" btn btn-ghost btn-circle rounded-full text-lg">
       <Link to="/Login">Login</Link> 
     </button>
-    <button className="btn btn-ghost btn-circle rounded-full text-lg"> 
-    <img src={profileImage} alt="Profile" className="profile-image w-6 h-6" />
-     </button>
+    
   </div>
 </div>
 
