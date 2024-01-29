@@ -10,7 +10,7 @@ const Session = () => {
 
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:4000/Booking/');
+        const response = await fetch('https://psychoaoi.onrender.com/Booking/');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

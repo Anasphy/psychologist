@@ -64,7 +64,7 @@ const Booking = ({ match }) => {
   useEffect(() => {
     const fetchPsychologists = async () => {
       try {
-        const response = await fetch('http://localhost:4000/Psychologist/');
+        const response = await fetch('https://psychoaoi.onrender.com/Psychologist/');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -99,7 +99,7 @@ const Booking = ({ match }) => {
       return;
     }
 
-    const res = await axios.post('http://localhost:4000/Booking/add', formData);
+    const res = await axios.post('https://psychoaoi.onrender.com/Booking/add', formData);
     console.log(res.data);
 
     // Perform any backend logic here (e.g., API call to save data)

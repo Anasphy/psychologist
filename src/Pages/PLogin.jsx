@@ -17,7 +17,7 @@ const PLogin = () => {
       
         try {
           // Make Axios request to your authentication endpoint
-          const response = await axios.post('http://localhost:4000/psychologist/email', {
+          const response = await axios.post('https://psychoaoi.onrender.com/psychologist/email', {
             Email: email, // Assuming your server expects 'email' in the request body
           });
       

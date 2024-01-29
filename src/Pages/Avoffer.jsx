@@ -10,7 +10,7 @@ const Avoffer = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:4000/Offer/`);
+        const response = await fetch(`https://psychoaoi.onrender.com/Offer/`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }

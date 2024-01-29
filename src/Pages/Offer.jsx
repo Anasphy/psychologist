@@ -75,7 +75,7 @@ const Offer = () => {
       return;
     }
 
-    const res = await axios.post("http://localhost:4000/Offer/add", formData)
+    const res = await axios.post("https://psychoaoi.onrender.com/Offer/add", formData)
     console.log(res.data)
     // Perform any backend logic here (e.g., API call to save data)
   };

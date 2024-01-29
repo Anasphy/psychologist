@@ -79,7 +79,7 @@ const New = () => {
       return;
     }
 
-    axios.post("http://localhost:4000/Client/add", formData).then
+    axios.post("https://psychoaoi.onrender.com/Client/add", formData).then
     ((res)=>{
       console.log(res.data)
       alert('Register done!')

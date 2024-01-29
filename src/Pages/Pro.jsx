@@ -86,7 +86,7 @@ const Pro = () => {
         return;
       }
 
-    const res = await axios.post("http://localhost:4000/Psychologist/add", formData).then
+    const res = await axios.post("https://psychoaoi.onrender.com/Psychologist/add", formData).then
     ((res)=>{
       console.log(res.data)
       alert('Register done!')
